@@ -1,0 +1,58 @@
+/*hsl(30, 54%, 90%)
+- Light Grey: hsl(30, 18%, 87%)
+- Wenge Brown: hsl(30, 10%, 34%)
+- Dark Charcoal: hsl(24, 5%, 18%)
+*/
+body{
+    font-family: "Outfit", sans-serif;
+    background-color: hsl(30, 54%, 90%);
+    Font-size: 16px;
+    font-weight:400;
+    line-height: 25px;
+}
+.main{
+ margin: 10% auto ;
+ max-width: 700px;
+ padding: 40px;
+ border-radius: 20px;
+ background-color: white;
+ box-shadow:0 0 10px rgba(0,0,0, 0.1) ;
+ color: hsla(27, 7%, 24%, 0.863);
+}
+.preparation{
+    background-color: hsl(330, 30%, 96%);
+    padding: 15px 5px 5px 26px;
+}
+span{
+    font-weight: bold;
+}
+.preparation h3{
+    color:hsl(332, 51%, 32%);
+}
+h1{
+    color:hsl(24, 5%, 18%);
+    font-family: "Young Serif", serif;
+}
+.main h2{
+    color:hsl(14, 45%, 36%);
+}
+li::marker {
+    color:hsl(14, 45%, 36%);
+    font-weight: bold;
+  }
+img{
+    width: 100%;
+    border-radius: 10px;
+}
+table,th,td{
+    width: 100%;
+    border-collapse: collapse;  
+    border-bottom: 1px solid #ddd;
+}
+.elem{
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+}
+.nutritions table td.elem {
+    text-align: left !important; /* or right, depending on your desired alignment */
+  }
